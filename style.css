@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif; /* Define a família de fontes */
+    margin: 0; /* Remove margens padrão do corpo */
+    padding: 0; /* Remove preenchimento padrão do corpo */
+    background-image: url('datacenter_background.jpg'); /* Adiciona a imagem de fundo */
+    background-size: cover; /* Ajusta a imagem de fundo para cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem de fundo */
+    background-repeat: no-repeat; /* Evita a repetição da imagem de fundo */
+}
+
+
+.login-container {
+    max-width: 400px; /* Define a largura máxima do contêiner */
+    margin: 100px auto; /* Centraliza o contêiner verticalmente e alinha-o ao centro horizontalmente */
+    background-color: rgba(255, 255, 255, 0.8); /* Define uma cor de fundo com opacidade */
+    padding: 20px; /* Adiciona espaço interno ao contêiner */
+    border-radius: 10px; /* Adiciona bordas arredondadas ao contêiner */
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%; /* Define a largura do campo de entrada como 100% */
+    margin-bottom: 10px; /* Adiciona espaço inferior entre os campos de entrada */
+    padding: 10px; /* Adiciona preenchimento interno aos campos de entrada */
+    border: 1px solid #ccc; /* Adiciona uma borda sólida com cor cinza */
+    border-radius: 5px; /* Adiciona bordas arredondadas aos campos de entrada */
+}
+
+.login-form button {
+    width: 100%; /* Define a largura do botão como 100% */
+    padding: 10px; /* Adiciona preenchimento interno ao botão */
+    background-color: #007bff; /* Define a cor de fundo do botão */
+    color: #fff; /* Define a cor do texto do botão como branco */
+    border: none; /* Remove a borda do botão */
+    border-radius: 5px; /* Adiciona bordas arredondadas ao botão */
+    cursor: pointer; /* Altera o cursor ao passar o mouse sobre o botão */
+}
+
+.login-form button:hover {
+    background-color: #0056b3; /* Altera a cor de fundo do botão ao passar o mouse sobre ele */
+}
