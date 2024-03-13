@@ -67,7 +67,7 @@ php -v
 12 -Para o MySQL, você pode precisar criar um banco de dados e um usuário para o seu projeto. Para fazer isso, faça login no console do MySQL com:
  
 
-mysql -u root -p /var/www/html/cgnat/cgnat_logger < cgnat_logger.sql
+mysql -u root -p /var/www/html/cgnat_logger/cgnat_logger < cgnat_logger.sql
 
 
 
