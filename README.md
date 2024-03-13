@@ -32,7 +32,8 @@ instalar syslog-ng + apache2 + mysql
    E no final do arquivo de configuracão vamos adicionar a config do mikrotik
 
 # MIKROTIK ###########
-# Add Filter to add our mikrotik
+# Adiciona filtro para mikrotik logs
+
 filter f_mikrotik { host( "IP.DA.SUA.MIKROTIK" ); };
 log { source ( s_net ); filter( f_mikrotik ); destination ( df_mikrotik ); };
 destination df_mikrotik {
