@@ -98,12 +98,19 @@ Após digitar a senha ele irá carregar o banco cgnat_logger.sql
 15- Em seguida criar a regra para enviar os logs do mikrotik para o syslog-ng usando  o seguinte comando via terminal do mikrotik
 
 /system logging action
+
 set 3 remote=ip.servidor.remoto.aqui src-address=ip.do.mikrotik.aqui
+
 /system logging
+
 set 0 disabled=yes
+
 add action=remote prefix=CGNAT topics=firewall
+
 add topics=account
+
 add topics=interface
+
 
 
 
