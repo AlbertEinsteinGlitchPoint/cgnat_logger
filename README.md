@@ -118,3 +118,14 @@ add topics=interface
 Se conseguiu efetuar os passos com sucesso aguarde uns minutos e acesse o painel cgnat logger, onde deverá apareer a lista com os arquivos log do lado direito.
 
 Arquivos acima de 200Mb demora quase 2minutos para carregar no banco de dados para filtrar os dados necessários.
+
+para acessar o painel 
+
+http://ip.do.seu.servidor
+
+usuário padrão: admin
+senha padrão: admin
+
+
+
+após efetuar login por segurança sugiro que crie um novo usuário de acesso e senha, que faça login de novo no painel com o novo usuário e delete o usuário padrão.
