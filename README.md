@@ -12,10 +12,15 @@ O sistema utiliza o Mikrotik para efetuar os logs e enviar ao Syslog-NG remoto e
 instalar syslog-ng + apache2 + mysql
 
 1- sudo apt update
+
 2- sudo apt upgrade -y
+
 3- sudo apt get install apache2
+
 4- sudo mysql_secure_installation
+
 5- sudo apt install php php-mysql -y
+
 
 6- Após instalar o Syslog-NG  vá até a pasta do syslog-ng e edite o arquivo 
    normalmente o arquivo fica no caminho /etc/syslog-ng/syslog-ng.conf
