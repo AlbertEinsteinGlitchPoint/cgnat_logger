@@ -59,13 +59,14 @@ php -v
 
 10- Vá para o diretório /var/www/html/
 
-11- digite via terminal Wget  para baixar do github o git completo com os arquivos
+11- digite via terminal git clone  para baixar do github o git completo com os arquivos
     
-    wget https://github.com/AlbertEinsteinGlitchPoint/cgnat_logger.git
+    git clone https://github.com/AlbertEinsteinGlitchPoint/cgnat_logger.git
 
 
 12 -Para o MySQL, você pode precisar criar um banco de dados e um usuário para o seu projeto. Para fazer isso, faça login no console do MySQL com:
  
+mysql -u root -p -e "CREATE DATABASE cgnat_logger;"
 
 mysql -u root -p /var/www/html/cgnat_logger/cgnat_logger < cgnat_logger.sql
 
