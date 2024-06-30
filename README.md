@@ -48,6 +48,7 @@ O Formato do log ficara IP-mikrotik + Ano + Mês + Dia + Hora.log
 7- Para verificar a versão do MySQL e confirmar que o serviço está rodando, execute:
 
 mysql --version
+
 sudo systemctl status mysql
 
 
@@ -72,8 +73,19 @@ mysql -u root -p /var/www/html/cgnat_logger/cgnat_logger < cgnat_logger.sql
 
 
 
+
 em seguida irá solicitar para digitar a senha usada durante a instalacão do mysql-server ou normalmente a senha do usuário ubuntu. 
 Após digitar a senha ele irá carregar o banco cgnat_logger.sql
+
+por ultimo após carregar o banco de dados será necessário editar o arquivo db.php para inserir os dados de login usuário e senha para conectar ao banco de dados mysql
+
+nano db.php
+
+$username = "seu-usuario-aqui";  // normalmente dependendo do sistema operativo é root ou qualquer outro usuário que criar durante instalacão do banco de dados mysql
+$password = "sua-senha-aqui";
+$dbname = "cgnat_logger";
+
+
 
 
 
