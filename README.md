@@ -82,7 +82,9 @@ por ultimo após carregar o banco de dados será necessário editar o arquivo db
 nano db.php
 
 $username = "seu-usuario-aqui";  // normalmente dependendo do sistema operativo é root ou qualquer outro usuário que criar durante instalacão do banco de dados mysql
+
 $password = "sua-senha-aqui";
+
 $dbname = "cgnat_logger";
 
 
